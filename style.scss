@@ -42,7 +42,7 @@ header p {
 .letra-vacia {
   display: inline-block;
   width: 2rem;
-  height: 2rem;
+  height: 2.2rem;
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
@@ -89,12 +89,11 @@ header p {
 }
 
 .incorrecta {
-  background-color: #ff0000;
+  background-color: #ec4545;
 }
 
-.incorrecta::before {
-  content: attr(data-letra);
-  color: #ffffff;
+.correcta {
+  background-color: #37c022;;
 }
 
 .mensaje-felicitacion {
@@ -137,4 +136,14 @@ header p {
 
 .oculto {
   display: none;
+}
+
+.pikachu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100px;
+  }
 }
